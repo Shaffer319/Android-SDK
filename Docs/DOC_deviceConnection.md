@@ -23,6 +23,8 @@ BeaconManager beaconManager = new BeaconManager(this);
         }
       });
      beaconManager.startConfigurableDevicesDiscovery();
+    }
+  }
 ```
 
 Once you have your `ConfigurableDevice` object, you want to acquire `DeviceConnection` for it. To do that, you need to be connected to `DeviceConnectionProvider`.
